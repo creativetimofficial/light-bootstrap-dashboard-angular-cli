@@ -3,7 +3,6 @@ import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
 import initNotify = require('../../../assets/js/notify.js');
 
 declare var $:any;
-// declare var demo:any;
 
 @Component({
   selector: 'app-home',
@@ -17,9 +16,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
       $.getScript('../assets/js/bootstrap-checkbox-radio-switch.js');
       $.getScript('../assets/js/dashboard.js');
-    // initNotify();
-    //   demo.initChartist();
-    //   initDemo();
   }
 
 }
