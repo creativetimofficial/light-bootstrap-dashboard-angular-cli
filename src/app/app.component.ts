@@ -11,6 +11,8 @@ declare var $:any;
 export class AppComponent implements OnInit {
     ngOnInit(){
         $.getScript('../assets/js/light-bootstrap-dashboard.js');
+        $.getScript('../assets/js/demo.js');
+
     }
  isMaps(){
         if('/maps' == window.location.pathname){
