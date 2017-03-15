@@ -1,7 +1,12 @@
 var type = ['','info','success','warning','danger'];
 
 $(document).ready(function(){
+	$('[data-toggle="checkbox"]').each(function () {
+   	 if($(this).data('toggle') == 'switch') return;
 
+   	 var $checkbox = $(this);
+   	 $checkbox.checkbox();
+    });
 	  ds.initChartist();
 	//   ds.showNotification();
 })

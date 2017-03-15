@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-      $.getScript('../assets/js/bootstrap-checkbox-radio-switch.js');
+    //   $.getScript('../assets/js/bootstrap-checkbox-radio-switch.js');
       $.getScript('../assets/js/dashboard.js');
     // initNotify();
     //   demo.initChartist();
