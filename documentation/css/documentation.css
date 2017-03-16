@@ -56,7 +56,7 @@ pre.prettyprint{
 }
 .tim-row:last-child pre{
     position: relative;
-    top: -144px;
+    top: -45px;
     width: 100%;
 }
 .atv, .str{
